@@ -1,10 +1,10 @@
-from facefusion import state_manager
-from facefusion.filesystem import get_file_name, is_video, resolve_file_paths
-from facefusion.jobs import job_store
-from facefusion.normalizer import normalize_fps, normalize_padding
-from facefusion.processors.core import get_processors_modules
-from facefusion.types import ApplyStateItem, Args
-from facefusion.vision import detect_video_fps
+from face import state_manager
+from face.filesystem import get_file_name, is_video, resolve_file_paths
+from face.jobs import job_store
+from face.normalizer import normalize_fps, normalize_padding
+from face.processors.core import get_processors_modules
+from face.types import ApplyStateItem, Args
+from face.vision import detect_video_fps
 
 
 def reduce_step_args(args : Args) -> Args:
