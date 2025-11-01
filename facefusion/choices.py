@@ -113,22 +113,21 @@ execution_provider_set : ExecutionProviderSet =\
 execution_providers : List[ExecutionProvider] = list(execution_provider_set.keys())
 download_provider_set : DownloadProviderSet =\
 {
-	'github':
+	'huggingface':
 	{
 		'urls':
 		[
-			'https://github.com'
+			'https://huggingface.co'
 		],
-		'path': '/facefusion/facefusion-assets/releases/download/{base_name}/{file_name}'
+		'path': '/andro1241/face/tree/main/{base_name}/{file_name}'
 	},
 	'huggingface':
 	{
 		'urls':
 		[
-			'https://huggingface.co',
-			'https://hf-mirror.com'
+			'https://huggingface.co'
 		],
-		'path': '/facefusion/{base_name}/resolve/main/{file_name}'
+		'path': '/andro1241/face/tree/main/{file_name}'
 	}
 }
 download_providers : List[DownloadProvider] = list(download_provider_set.keys())
