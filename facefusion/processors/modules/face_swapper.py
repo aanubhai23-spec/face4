@@ -37,7 +37,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'blendswap_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/blendswap_256.hash',
 					'path': resolve_relative_path('../.assets/models/blendswap_256.hash')
 				}
 			},
@@ -45,7 +45,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'blendswap_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/blendswap_256.onnx,
 					'path': resolve_relative_path('../.assets/models/blendswap_256.onnx')
 				}
 			},
@@ -197,7 +197,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.3.0', 'hyperswap_1a_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/hyperswap_1a_256.hash',
 					'path': resolve_relative_path('../.assets/models/hyperswap_1a_256.hash')
 				}
 			},
@@ -205,7 +205,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.3.0', 'hyperswap_1a_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/hyperswap_1a_256.onnx',
 					'path': resolve_relative_path('../.assets/models/hyperswap_1a_256.onnx')
 				}
 			},
@@ -221,7 +221,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.3.0', 'hyperswap_1b_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/hyperswap_1b_256.hash',
 					'path': resolve_relative_path('../.assets/models/hyperswap_1b_256.hash')
 				}
 			},
@@ -229,7 +229,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 				{
 					'face_swapper':
 					{
-						'url': resolve_download_url('models-3.3.0', 'hyperswap_1b_256.onnx'),
+						'url': 'https://huggingface.co/andro1241/face/resolve/main/hyperswap_1b_256.onnx',
 						'path': resolve_relative_path('../.assets/models/hyperswap_1b_256.onnx')
 					}
 				},
