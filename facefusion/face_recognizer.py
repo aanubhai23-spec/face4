@@ -21,7 +21,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_recognizer':
 				{
-					'url': resolve_download_url('models-3.0.0', 'arcface_w600k_r50.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/arcface_w600k_r50.hash',
 					'path': resolve_relative_path('../.assets/models/arcface_w600k_r50.hash')
 				}
 			},
@@ -29,7 +29,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_recognizer':
 				{
-					'url': resolve_download_url('models-3.0.0', 'arcface_w600k_r50.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/arcface_w600k_r50.onnx',
 					'path': resolve_relative_path('../.assets/models/arcface_w600k_r50.onnx')
 				}
 			},
