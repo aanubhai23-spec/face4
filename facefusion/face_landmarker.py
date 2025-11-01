@@ -22,7 +22,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'2dfan4':
 				{
-					'url': resolve_download_url('models-3.0.0', '2dfan4.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/2dfan4.hash',
 					'path': resolve_relative_path('../.assets/models/2dfan4.hash')
 				}
 			},
@@ -30,7 +30,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'2dfan4':
 				{
-					'url': resolve_download_url('models-3.0.0', '2dfan4.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/2dfan4.onnx',
 					'path': resolve_relative_path('../.assets/models/2dfan4.onnx')
 				}
 			},
