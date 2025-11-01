@@ -45,7 +45,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': 'https://huggingface.co/andro1241/face/resolve/main/blendswap_256.onnx,
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/blendswap_256.onnx',
 					'path': resolve_relative_path('../.assets/models/blendswap_256.onnx')
 				}
 			},
@@ -61,12 +61,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'ghost_1_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/ghost_1_256.hash',
 					'path': resolve_relative_path('../.assets/models/ghost_1_256.hash')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_ghost.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_ghost.hash',
 					'path': resolve_relative_path('../.assets/models/crossface_ghost.hash')
 				}
 			},
