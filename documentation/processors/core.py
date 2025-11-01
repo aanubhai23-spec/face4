@@ -2,8 +2,8 @@ import importlib
 from types import ModuleType
 from typing import Any, List
 
-from facefusion import logger, wording
-from facefusion.exit_helper import hard_exit
+from face import logger, wording
+from face.exit_helper import hard_exit
 
 PROCESSORS_METHODS =\
 [
