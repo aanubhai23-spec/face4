@@ -42,7 +42,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'peppa_wutz':
 				{
-					'url': resolve_download_url('models-3.0.0', 'peppa_wutz.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/peppa_wutz.hash',
 					'path': resolve_relative_path('../.assets/models/peppa_wutz.hash')
 				}
 			},
@@ -50,7 +50,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'peppa_wutz':
 				{
-					'url': resolve_download_url('models-3.0.0', 'peppa_wutz.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/peppa_wutz.onnx',
 					'path': resolve_relative_path('../.assets/models/peppa_wutz.onnx')
 				}
 			},
@@ -62,7 +62,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'fan_68_5':
 				{
-					'url': resolve_download_url('models-3.0.0', 'fan_68_5.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/fan_68_5.hash',
 					'path': resolve_relative_path('../.assets/models/fan_68_5.hash')
 				}
 			},
@@ -70,7 +70,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'fan_68_5':
 				{
-					'url': resolve_download_url('models-3.0.0', 'fan_68_5.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/fan_68_5.onnx',
 					'path': resolve_relative_path('../.assets/models/fan_68_5.onnx')
 				}
 			}
