@@ -21,7 +21,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_classifier':
 				{
-					'url': resolve_download_url('models-3.0.0', 'fairface.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/fairface.hash',
 					'path': resolve_relative_path('../.assets/models/fairface.hash')
 				}
 			},
@@ -29,7 +29,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_classifier':
 				{
-					'url': resolve_download_url('models-3.0.0', 'fairface.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/fairface.onnx',
 					'path': resolve_relative_path('../.assets/models/fairface.onnx')
 				}
 			},
