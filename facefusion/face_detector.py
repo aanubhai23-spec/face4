@@ -61,7 +61,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'yolo_face':
 				{
-					'url': resolve_download_url('models-3.0.0', 'yoloface_8n.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/yoloface_8n.hash',
 					'path': resolve_relative_path('../.assets/models/yoloface_8n.hash')
 				}
 			},
@@ -69,7 +69,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'yolo_face':
 				{
-					'url': resolve_download_url('models-3.0.0', 'yoloface_8n.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/yoloface_8n.onnx',
 					'path': resolve_relative_path('../.assets/models/yoloface_8n.onnx')
 				}
 			}
