@@ -74,12 +74,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'ghost_1_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/ghost_1_256.onnx',
 					'path': resolve_relative_path('../.assets/models/ghost_1_256.onnx')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_ghost.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_ghost.onnx',
 					'path': resolve_relative_path('../.assets/models/crossface_ghost.onnx')
 				}
 			},
@@ -95,12 +95,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'ghost_2_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/ghost_2_256.hash',
 					'path': resolve_relative_path('../.assets/models/ghost_2_256.hash')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_ghost.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_ghost.hash',
 					'path': resolve_relative_path('../.assets/models/crossface_ghost.hash')
 				}
 			},
@@ -108,12 +108,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'ghost_2_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/ghost_2_256.onnx',
 					'path': resolve_relative_path('../.assets/models/ghost_2_256.onnx')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_ghost.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_ghost.onnx',
 					'path': resolve_relative_path('../.assets/models/crossface_ghost.onnx')
 				}
 			},
@@ -129,12 +129,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'ghost_3_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/ghost_3_256.hash',
 					'path': resolve_relative_path('../.assets/models/ghost_3_256.hash')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_ghost.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_ghost.hash',
 					'path': resolve_relative_path('../.assets/models/crossface_ghost.hash')
 				}
 			},
@@ -142,12 +142,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'ghost_3_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/ghost_3_256.onnx',
 					'path': resolve_relative_path('../.assets/models/ghost_3_256.onnx')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_ghost.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_ghost.onnx',
 					'path': resolve_relative_path('../.assets/models/crossface_ghost.onnx')
 				}
 			},
@@ -163,12 +163,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.1.0', 'hififace_unofficial_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/hififace_unofficial_256.hash',
 					'path': resolve_relative_path('../.assets/models/hififace_unofficial_256.hash')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_hififace.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_hififace.hash',
 					'path': resolve_relative_path('../.assets/models/crossface_hififace.hash')
 				}
 			},
@@ -176,12 +176,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.1.0', 'hififace_unofficial_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/hififace_unofficial_256.onnx',
 					'path': resolve_relative_path('../.assets/models/hififace_unofficial_256.onnx')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_hififace.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_hififace.onnx',
 					'path': resolve_relative_path('../.assets/models/crossface_hififace.onnx')
 				}
 			},
@@ -245,7 +245,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.3.0', 'hyperswap_1c_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/hyperswap_1c_256.hash',
 					'path': resolve_relative_path('../.assets/models/hyperswap_1c_256.hash')
 				}
 			},
@@ -253,7 +253,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.3.0', 'hyperswap_1c_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/hyperswap_1c_256.onnx',
 					'path': resolve_relative_path('../.assets/models/hyperswap_1c_256.onnx')
 				}
 			},
@@ -269,7 +269,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'inswapper_128.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/inswapper_128.hash',
 					'path': resolve_relative_path('../.assets/models/inswapper_128.hash')
 				}
 			},
@@ -277,7 +277,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'inswapper_128.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/inswapper_128.onnx',
 					'path': resolve_relative_path('../.assets/models/inswapper_128.onnx')
 				}
 			},
@@ -293,7 +293,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'inswapper_128_fp16.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/inswapper_128_fp16.hash',
 					'path': resolve_relative_path('../.assets/models/inswapper_128_fp16.hash')
 				}
 			},
@@ -301,7 +301,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'inswapper_128_fp16.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/inswapper_128_fp16.onnx',
 					'path': resolve_relative_path('../.assets/models/inswapper_128_fp16.onnx')
 				}
 			},
@@ -317,12 +317,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'simswap_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/simswap_256.hash',
 					'path': resolve_relative_path('../.assets/models/simswap_256.hash')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_simswap.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_simswap.hash',
 					'path': resolve_relative_path('../.assets/models/crossface_simswap.hash')
 				}
 			},
@@ -330,12 +330,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'simswap_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/simswap_256.onnx',
 					'path': resolve_relative_path('../.assets/models/simswap_256.onnx')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_simswap.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_simswap.onnx',
 					'path': resolve_relative_path('../.assets/models/crossface_simswap.onnx')
 				}
 			},
@@ -351,12 +351,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'simswap_unofficial_512.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/simswap_unofficial_512.hash',
 					'path': resolve_relative_path('../.assets/models/simswap_unofficial_512.hash')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_simswap.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_simswap.hash',
 					'path': resolve_relative_path('../.assets/models/crossface_simswap.hash')
 				}
 			},
@@ -364,12 +364,12 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'simswap_unofficial_512.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/simswap_unofficial_512.onnx',
 					'path': resolve_relative_path('../.assets/models/simswap_unofficial_512.onnx')
 				},
 				'embedding_converter':
 				{
-					'url': resolve_download_url('models-3.4.0', 'crossface_simswap.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/crossface_simswap.onnx',
 					'path': resolve_relative_path('../.assets/models/crossface_simswap.onnx')
 				}
 			},
@@ -385,7 +385,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'uniface_256.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/uniface_256.hash',
 					'path': resolve_relative_path('../.assets/models/uniface_256.hash')
 				}
 			},
@@ -393,7 +393,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_swapper':
 				{
-					'url': resolve_download_url('models-3.0.0', 'uniface_256.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/uniface_256.onnx',
 					'path': resolve_relative_path('../.assets/models/uniface_256.onnx')
 				}
 			},
