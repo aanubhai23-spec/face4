@@ -1,7 +1,7 @@
 import os
 import sys
 
-from facefusion.types import AppContext
+from face.types import AppContext
 
 
 def detect_app_context() -> AppContext:
