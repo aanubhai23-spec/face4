@@ -94,7 +94,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_enhancer':
 				{
-					'url': resolve_download_url('models-3.0.0', 'gfpgan_1.4.hash'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/gfpgan_1.4.hash',
 					'path': resolve_relative_path('../.assets/models/gfpgan_1.4.hash')
 				}
 			},
@@ -102,7 +102,7 @@ def create_static_model_set(download_scope : DownloadScope) -> ModelSet:
 			{
 				'face_enhancer':
 				{
-					'url': resolve_download_url('models-3.0.0', 'gfpgan_1.4.onnx'),
+					'url': 'https://huggingface.co/andro1241/face/resolve/main/gfpgan_1.4.onnx',
 					'path': resolve_relative_path('../.assets/models/gfpgan_1.4.onnx')
 				}
 			},
