@@ -5,10 +5,10 @@ import numpy
 import scipy
 from numpy.typing import NDArray
 
-from facefusion.ffmpeg import read_audio_buffer
-from facefusion.filesystem import is_audio
-from facefusion.types import Audio, AudioFrame, Fps, Mel, MelFilterBank, Spectrogram
-from facefusion.voice_extractor import batch_extract_voice
+from face.ffmpeg import read_audio_buffer
+from face.filesystem import is_audio
+from face.types import Audio, AudioFrame, Fps, Mel, MelFilterBank, Spectrogram
+from face.voice_extractor import batch_extract_voice
 
 
 @lru_cache(maxsize = 64)
